@@ -4,11 +4,12 @@ activate application "Messages"
 --tell application "System Events"
 --keystroke "h" using command down
 --end tell
-repeat with i from 81 to 100
+--repeat with i from 100 to 150
+repeat with i from 8 to 8
 	tell application "System Events" to tell process "Messages"
 		key code 45 using command down -- press Command + N to start a new window
 		i as inches as string -- converting the number as stirng
-		set pre to "41598790"
+		set pre to "415987906"
 		set pro to i
 		set nu to pre & pro
 		keystroke nu
